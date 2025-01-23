@@ -1,0 +1,58 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="true"
+    slaProfileName="SLA_1" type="LEGACY" uid="JPetstore_multi_items">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="459ff4a9-f40f-43f0-8462-7e8e77b8c1a1"/>
+        <weighted-embedded-action uid="3621cba9-d9e2-4aec-a6b5-b09440f6785e"/>
+        <weighted-embedded-action uid="37a7829b-7c12-4f92-b545-46b10130862a"/>
+        <weighted-embedded-action uid="47f076e0-5d0e-4654-bd74-06091d0b0afe"/>
+        <weighted-embedded-action uid="68e47203-41e8-41d8-88bf-748142654072"/>
+        <weighted-embedded-action uid="f16a747c-57c3-4b5c-8ce8-f1deec4add24"/>
+        <weighted-embedded-action uid="52725e7a-a3c5-45ed-80a7-0d3c7397e183"/>
+        <weighted-embedded-action uid="88c053ad-ae8a-4150-9ee1-fa3810c379c4"/>
+        <weighted-embedded-action uid="e179d040-5f65-4065-bc5a-4349cb2da95c"/>
+        <weighted-embedded-action uid="1d8dedec-1486-44e1-a3de-f371655aa06c"/>
+        <weighted-embedded-action uid="4305b973-4868-42c7-ad42-d6c89eaf9309"/>
+        <weighted-embedded-action uid="6a62b56c-3a2c-4505-8825-830525ed38ad"/>
+        <weighted-embedded-action uid="8a30b3e6-c8f7-48ba-ab52-a7bdaa76c651"/>
+        <weighted-embedded-action uid="de2d10f3-0eb9-4622-893b-de3cbfdfb582"/>
+        <weighted-embedded-action uid="6a1d9ac4-ed89-4b00-b321-e262cc331e5b"/>
+        <weighted-embedded-action uid="fa4fbe08-6530-44d4-b8eb-c4488eb0b5f6"/>
+        <weighted-embedded-action uid="fd861856-fb23-48ec-939e-b03a5a737962"/>
+        <weighted-embedded-action uid="c278955b-5451-400d-b07b-f71d6ea59b05"/>
+        <weighted-embedded-action uid="bfb9018d-c8d3-4453-9939-d2fb2c85f8ad"/>
+        <weighted-embedded-action uid="fd3dc4c1-393b-460d-928c-6ecf2509bc63"/>
+        <weighted-embedded-action uid="436defb7-3e0d-462c-b6db-3b8d10e14cac"/>
+        <weighted-embedded-action uid="6c9ebd75-7bd3-4492-8bd1-0497783f7b1d"/>
+        <weighted-embedded-action uid="62c7cae9-8e5b-4681-96ce-a3b9d041bdaf"/>
+        <weighted-embedded-action uid="0f5583a4-ae03-4641-80e1-7e77a80584bc"/>
+        <weighted-embedded-action uid="bcac1c43-75e2-4948-933f-a273ac3046e8"/>
+        <weighted-embedded-action uid="fdfd8009-7ecc-4209-aa6f-40be287446c1"/>
+        <weighted-embedded-action uid="a5d9b9aa-c368-4876-acea-c283287ef081"/>
+        <weighted-embedded-action uid="c6dd927a-2eb8-4b9e-9257-33967c39ca53"/>
+        <weighted-embedded-action uid="339f1fd0-4197-4910-a8ec-e7beb7971d92"/>
+        <weighted-embedded-action uid="6d2f94be-64a0-4c80-8168-c3e555ab414f"/>
+        <weighted-embedded-action uid="eaa18cdb-ac8e-4402-b5c0-3d03cb8f7ba2"/>
+        <weighted-embedded-action uid="27ea9a75-ca8b-4625-bf15-cecd4b446bfc"/>
+        <weighted-embedded-action uid="7da7d6ec-f841-49a1-8ad2-4e138c63efca"/>
+        <weighted-embedded-action uid="cf93d77e-6b64-4aab-9904-076ad7a24d1a"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <extraJsonData><![CDATA[{}]]></extraJsonData>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

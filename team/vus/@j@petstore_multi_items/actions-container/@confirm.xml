@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Confirm" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="SLA_1" uid="cf93d77e-6b64-4aab-9904-076ad7a24d1a" weightsEnabled="false">
+    <weighted-embedded-action uid="d476d697-f17c-44be-ab20-530a75c00064"/>
+</basic-logical-action-container>

@@ -1,0 +1,58 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="true"
+    slaProfileName="SLA2" type="LEGACY" uid="JPetstore_multi_items_SLA2">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="d0cd4be6-f006-4619-9244-9a25f4b463e2"/>
+        <weighted-embedded-action uid="670e4575-c60f-4e88-a67c-51a0fd230967"/>
+        <weighted-embedded-action uid="f960071f-bad2-4d5b-acf1-d8809bdbcd10"/>
+        <weighted-embedded-action uid="40f0863e-08fa-43fd-be08-9f4c07b05100"/>
+        <weighted-embedded-action uid="687a4bcd-3be0-48a8-b494-4d46400a36ac"/>
+        <weighted-embedded-action uid="5dc2681e-ee7b-4e62-a411-58212260d11d"/>
+        <weighted-embedded-action uid="53190bb1-bb5d-4f4e-a19a-b160263d1e21"/>
+        <weighted-embedded-action uid="bc47e02b-1772-42a4-98ad-bc34581c7d74"/>
+        <weighted-embedded-action uid="876bd41b-5c56-49f5-8bb2-9ece840890e5"/>
+        <weighted-embedded-action uid="ef912944-a9d2-4c28-9013-5e93b49aecae"/>
+        <weighted-embedded-action uid="c4b88295-0c60-4f76-95a3-6ec6e85a343f"/>
+        <weighted-embedded-action uid="e7e0e172-882b-4015-b791-60155e150832"/>
+        <weighted-embedded-action uid="2cdd2d89-faad-4cc5-a2ea-edc05a0a8871"/>
+        <weighted-embedded-action uid="0b79baf0-85c0-436b-bc49-337b4312c68e"/>
+        <weighted-embedded-action uid="eb8635a8-27f3-4a01-85f7-7ab556e67a95"/>
+        <weighted-embedded-action uid="9dac5a7a-bdd0-4b93-ad33-90325444046d"/>
+        <weighted-embedded-action uid="2f349403-a008-40d2-bd02-c30e21aa816f"/>
+        <weighted-embedded-action uid="28569e69-d1f5-415a-8318-1bc49544372a"/>
+        <weighted-embedded-action uid="ecab551f-7abc-4bf4-ab76-eb2525b88513"/>
+        <weighted-embedded-action uid="6122dd0b-8e20-4783-a605-3efe5e3fb842"/>
+        <weighted-embedded-action uid="a44776a4-9b1b-4afb-84c1-e53c68290eb9"/>
+        <weighted-embedded-action uid="947bc3dc-1cb0-4681-b769-300f48469e86"/>
+        <weighted-embedded-action uid="d1a94a26-cd07-4acc-aab8-e4b14eed2d54"/>
+        <weighted-embedded-action uid="af94b960-8793-4972-9381-957cd07579f1"/>
+        <weighted-embedded-action uid="6fb4a774-3d07-48d4-88fa-39673ee37874"/>
+        <weighted-embedded-action uid="c822f156-e96b-4362-9b40-9ca1775c2095"/>
+        <weighted-embedded-action uid="dd04c1e5-bd58-4193-98af-6a5b667c1cba"/>
+        <weighted-embedded-action uid="6ab72b69-6c7f-47c4-840e-54e6b778f145"/>
+        <weighted-embedded-action uid="a8e69910-1647-42d8-871d-17afaeafd659"/>
+        <weighted-embedded-action uid="f36a1a28-c4b4-4142-b28a-62b0b45cb302"/>
+        <weighted-embedded-action uid="40387f09-55c9-40ce-96fb-7bf3b93e0740"/>
+        <weighted-embedded-action uid="77ce8fe3-f96d-4e13-9579-fb05a89386ca"/>
+        <weighted-embedded-action uid="5c793297-09f3-4b40-a40f-e0da3afc943d"/>
+        <weighted-embedded-action uid="5c175056-04dd-4647-a24c-04b38cc4fcba"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <extraJsonData><![CDATA[{}]]></extraJsonData>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

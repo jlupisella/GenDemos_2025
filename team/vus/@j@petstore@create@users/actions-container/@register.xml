@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Register" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="c655613a-936b-4c2b-a107-ed88c1072c9f" weightsEnabled="false">
+    <weighted-embedded-action uid="9a6d239b-c0fe-4462-a9ab-b74ec0454af6"/>
+</basic-logical-action-container>

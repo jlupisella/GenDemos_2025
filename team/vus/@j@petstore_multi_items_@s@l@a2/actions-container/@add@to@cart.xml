@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="AddToCart" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="SLA2" uid="53190bb1-bb5d-4f4e-a19a-b160263d1e21" weightsEnabled="false">
+    <weighted-embedded-action uid="a37a2981-c7f8-4bca-a39f-c9ef4e8d2483"/>
+</basic-logical-action-container>

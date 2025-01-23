@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="HomeAgain" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="c0ac8e56-f896-4eb8-b82d-ae1c467a6272" weightsEnabled="false">
+    <weighted-embedded-action uid="3853c49a-7b10-4c37-b08b-719195d89926"/>
+</basic-logical-action-container>

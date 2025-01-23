@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SubmitReportButton" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="a9fe5068-c91a-4865-9b64-fd8a42a9879e" weightsEnabled="false">
+    <weighted-embedded-action uid="440908b3-6a12-4fdd-b20b-23389ce07c07"/>
+    <weighted-embedded-action uid="90bcab52-ea98-4214-817e-f319991a2689"/>
+    <weighted-embedded-action uid="59d9027e-263e-47a9-a961-d66a631f628e"/>
+    <weighted-embedded-action uid="aa3ecb59-857d-4945-bbd3-f8872df6359f"/>
+    <weighted-embedded-action uid="9e2666ca-a395-4621-a9ea-c01783c85c85"/>
+</basic-logical-action-container>

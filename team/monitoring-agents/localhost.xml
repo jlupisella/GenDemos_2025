@@ -3,20 +3,20 @@
     supportWANEmulation="false" uid="localhost" version="2024.3.0;build=20241031-38">
     <!--****** LG NETWORK INTERFACES ******-->
     <lg-networkiface description="Hyper-V Virtual Ethernet Adapter #4"
-        enabled="false" isLoopBack="false" name="eth31">
+        enabled="false" isLoopBack="false" name="eth53">
         <!--****** LG ADDRESSES ******-->
         <lg-address enabled="false" hostname="tri-cnd1457f4j">
-            <ip value="172.19.32.1"/>
+            <ip value="172.29.128.1"/>
         </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:ed43:d0ef:27d2:1025%eth31">
-            <ip value="fe80:0:0:0:ed43:d0ef:27d2:1025%eth31"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:3daa:b34:820a:71ca%eth53">
+            <ip value="fe80:0:0:0:3daa:b34:820a:71ca%eth53"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
     <lg-networkiface description="Software Loopback Interface 1"
         enabled="false" isLoopBack="true" name="lo">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="view-localhost">
+        <lg-address enabled="false" hostname="127.0.0.1">
             <ip value="127.0.0.1"/>
         </lg-address>
         <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
@@ -33,64 +33,64 @@
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
-    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter"
-        enabled="false" isLoopBack="false" name="eth25">
+    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter #3"
+        enabled="false" isLoopBack="false" name="eth18">
         <!--****** LG ADDRESSES ******-->
         <lg-address enabled="false" hostname="tri-cnd1457f4j">
-            <ip value="172.29.48.1"/>
+            <ip value="172.23.0.1"/>
         </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:a933:3b70:114b:cfb4%eth25">
-            <ip value="fe80:0:0:0:a933:3b70:114b:cfb4%eth25"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:fed:c784:d708:c007%eth18">
+            <ip value="fe80:0:0:0:fed:c784:d708:c007%eth18"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Realtek USB GbE Family Controller #4"
+        enabled="false" isLoopBack="false" name="eth14">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:888e:5655:d4a2:9f5f%eth14">
+            <ip value="fe80:0:0:0:888e:5655:d4a2:9f5f%eth14"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter #2"
+        enabled="false" isLoopBack="false" name="eth11">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="tri-cnd1457f4j">
+            <ip value="172.28.112.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:7f6f:4eee:fbe1:fc42%eth11">
+            <ip value="fe80:0:0:0:7f6f:4eee:fbe1:fc42%eth11"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
     <lg-networkiface
         description="Microsoft Wi-Fi Direct Virtual Adapter"
-        enabled="false" isLoopBack="false" name="wlan7">
+        enabled="false" isLoopBack="false" name="wlan3">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="fe80:0:0:0:91b5:430f:106e:8649%wlan7">
-            <ip value="fe80:0:0:0:91b5:430f:106e:8649%wlan7"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:91b5:430f:106e:8649%wlan3">
+            <ip value="fe80:0:0:0:91b5:430f:106e:8649%wlan3"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
-    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter #2"
-        enabled="false" isLoopBack="false" name="eth21">
+    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter"
+        enabled="false" isLoopBack="false" name="eth46">
         <!--****** LG ADDRESSES ******-->
         <lg-address enabled="false" hostname="tri-cnd1457f4j">
-            <ip value="172.23.160.1"/>
+            <ip value="172.24.208.1"/>
         </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:a52d:4e4e:cc8:e884%eth21">
-            <ip value="fe80:0:0:0:a52d:4e4e:cc8:e884%eth21"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:4267:6081:3f2d:16fc%eth46">
+            <ip value="fe80:0:0:0:4267:6081:3f2d:16fc%eth46"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
     <lg-networkiface description="Intel(R) Wi-Fi 6 AX201 160MHz"
-        enabled="false" isLoopBack="false" name="wlan3">
+        enabled="false" isLoopBack="false" name="wlan2">
         <!--****** LG ADDRESSES ******-->
         <lg-address enabled="false" hostname="tri-cnd1457f4j">
             <ip value="10.10.26.76"/>
         </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:aa6:b8dd:46bf:4cae%wlan3">
-            <ip value="fe80:0:0:0:aa6:b8dd:46bf:4cae%wlan3"/>
-        </lg-address>
-        <!--****** END LG ADDRESSES ******-->
-    </lg-networkiface>
-    <lg-networkiface description="Realtek USB GbE Family Controller #4"
-        enabled="false" isLoopBack="false" name="eth12">
-        <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="fe80:0:0:0:5a31:5c95:3ccb:b965%eth12">
-            <ip value="fe80:0:0:0:5a31:5c95:3ccb:b965%eth12"/>
-        </lg-address>
-        <!--****** END LG ADDRESSES ******-->
-    </lg-networkiface>
-    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter #3"
-        enabled="false" isLoopBack="false" name="eth34">
-        <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="tri-cnd1457f4j">
-            <ip value="172.18.224.1"/>
-        </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:c3c1:be2:df71:dc40%eth34">
-            <ip value="fe80:0:0:0:c3c1:be2:df71:dc40%eth34"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:aa6:b8dd:46bf:4cae%wlan2">
+            <ip value="fe80:0:0:0:aa6:b8dd:46bf:4cae%wlan2"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>

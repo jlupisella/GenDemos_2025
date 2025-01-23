@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Confirm" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="615f9189-68eb-4454-bd0e-bd03af0cd249" weightsEnabled="false">
+    <weighted-embedded-action uid="6295cf9d-8fc0-41e1-81d6-646c77bcef47"/>
+</basic-logical-action-container>

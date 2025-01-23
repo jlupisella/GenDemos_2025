@@ -1,0 +1,19 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SubmitReportForm" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="eee5674d-da79-4456-a18d-463447e73c4d" weightsEnabled="false">
+    <weighted-embedded-action uid="bdf31876-3a0b-439d-a095-99a1fc6fc4ac"/>
+    <weighted-embedded-action uid="dda7aa27-196e-4653-9f11-60e15921cb60"/>
+    <weighted-embedded-action uid="11b89a0e-e4a8-4996-aa40-5982a611c6bf"/>
+    <weighted-embedded-action uid="6aa36498-c890-40b7-bec6-262f0d178a14"/>
+    <weighted-embedded-action uid="48eea8c9-957d-4cee-8435-e3338f5ee905"/>
+    <weighted-embedded-action uid="3539b886-44d5-4b86-8125-c60653fa06ae"/>
+    <weighted-embedded-action uid="a7f455b5-ff29-4e85-9e9a-b6be1030189f"/>
+    <weighted-embedded-action uid="71dcbcaa-dc2d-44b8-81e9-ebfaadf96fba"/>
+    <weighted-embedded-action uid="86302bf5-f6e2-4b0c-9dd0-c605f467b900"/>
+    <weighted-embedded-action uid="2332815e-65b2-4b8a-9781-8a5a3eec40bd"/>
+    <weighted-embedded-action uid="7b1dab4d-e524-4e52-b7eb-0540259ea461"/>
+    <weighted-embedded-action uid="d64ceb3b-6ccd-426f-9c7f-1f8027bd24dc"/>
+    <weighted-embedded-action uid="06dda092-4c64-4f57-9e96-33798058f359"/>
+    <weighted-embedded-action uid="d670d889-980d-4400-82d3-9dc999622089"/>
+</basic-logical-action-container>
