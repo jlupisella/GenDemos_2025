@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Category" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    slaProfileName="SLA_1" uid="88ab2e0d-77c3-4bdd-96eb-7158e23cc5df" weightsEnabled="false">
+    <weighted-embedded-action uid="a935650e-2bb6-496d-b0bd-e90b21ab52da"/>
+</basic-logical-action-container>

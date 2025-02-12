@@ -1,7 +1,7 @@
 <scenario postMonitoringTime="-1" preMonitoringTime="-1"
     slaProfileEnabled="false" traceVariables="true" uid="JPetStore_SLA1" virtualUsersStates="true">
     <!--****** POPULATION POLICY ******-->
-    <population-policy name="JPetstore_SLA1">
+    <population-policy name="JPetStore_NoSLA">
         <duration-policy-entry iterations="1" time="120" timeUnit="0" type="2"/>
         <volume-policy-entry>
             <constant-volume-policy iterationNumber="1" userNumber="10"/>
@@ -26,7 +26,7 @@
             <monitor-curve-description color="20,106,203"
                 connectionName="NeoLoad" dashed="false"
                 monitorName="UserLoad" monitoredHostName="NeoLoad"
-                scale="1.0" selected="false"/>
+                scale="0.1" selected="false"/>
             <action-curve-description
                 actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
                 color="200,0,0" dashed="false" populationName=""

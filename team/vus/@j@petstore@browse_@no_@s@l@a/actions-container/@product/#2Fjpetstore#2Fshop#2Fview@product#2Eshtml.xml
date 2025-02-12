@@ -1,0 +1,101 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/jpetstore/shop/viewProduct.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@j@petstore@browse_@no_@s@l@a/%resources%/recorded-artifacts/519416ac-614d-412f-a2c3-16807e8640b9.zip"
+    slaProfileEnabled="false" slaProfileName="SLA_1" thinkTime="8200"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="519416ac-614d-412f-a2c3-16807e8640b9">
+    <embedded-action>185fa96e-aad0-457a-b395-7d431aff5216</embedded-action>
+    <embedded-action>55fa3287-5329-44e8-ae4f-d187d0be2fc4</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/shop/viewProduct.shtml"
+    path="/jpetstore/shop/viewProduct.shtml" postType="2"
+    recordedArtifactZipFileName="team/vus/@j@petstore@browse_@no_@s@l@a/%resources%/recorded-artifacts/519416ac-614d-412f-a2c3-16807e8640b9.zip"
+    recordedResponseCode="200"
+    refererUid="75893228-3c3a-4afd-ab8f-13f8a3af7285"
+    responseSize="3946" serverUid="TrainingImage"
+    slaProfileEnabled="false" slaProfileName="SLA_1"
+    uid="185fa96e-aad0-457a-b395-7d431aff5216" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_3199b30c-c964-47ae-a067-8cc709db0b5b.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3199b30c-c964-47ae-a067-8cc709db0b5b.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="ExtractedVariable_ItemID" regExp="itemId=(.*?)&quot;"
+        regExpAdv="itemId=(.*?)&quot;" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="2f79c998-1dc6-4e91-ad4d-f63080043e73" xpath=""/>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="ExtractedVariable_workingItemID"
+        regExp="workingItemId=(.*?)&quot;"
+        regExpAdv="workingItemId=(.*?)&quot;" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="e02e5710-2dc6-440f-b412-d8a0efccbad0" xpath=""/>
+    <parameter encodeName="true" encodeValue="true" name="productId"
+        recordRawValue="FI-FW-02" separator="="
+        value="${ExtractedVariable_ProductID}" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=38C8A5D45EEA7D40785970236E9D7DBA"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="34.228.15.47"/>
+    <header name="Referer" value="http://34.228.15.47/jpetstore/shop/viewCategory.shtml?categoryId=${categoryId_1}&amp;id=${id}"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 23 Mar 2021 18:09:05 GMT&#xd;
+Server: Apache/2.2.34 (Amazon)&#xd;
+Content-Length: 3946&#xd;
+Connection: close&#xd;
+Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorContent="FI-FW-02"
+        extractorOccurence="12" extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;481-1088130660000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/button_add_to_cart.gif"
+    path="/jpetstore/images/button_add_to_cart.gif" postType="2"
+    recordedArtifactZipFileName="team/vus/@j@petstore@browse_@no_@s@l@a/%resources%/recorded-artifacts/519416ac-614d-412f-a2c3-16807e8640b9.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="false"
+    slaProfileName="SLA_1" uid="55fa3287-5329-44e8-ae4f-d187d0be2fc4" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_91809ebb-6f75-4c68-8409-d0f1d5ae74e3.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=38C8A5D45EEA7D40785970236E9D7DBA"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="34.228.15.47"/>
+    <header name="Referer" value="http://34.228.15.47/jpetstore/shop/viewProduct.shtml?productId=FI-FW-02"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 23 Mar 2021 18:09:05 GMT&#xd;
+Server: Apache/2.2.34 (Amazon)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"481-1088130660000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT&#xd;
+Content-Length: 481&#xd;
+Connection: close&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
