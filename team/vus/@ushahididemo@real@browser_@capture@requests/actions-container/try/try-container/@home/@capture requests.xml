@@ -17,4 +17,28 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="resourceType" type="TEXT" value="stylesheet"/>
     <custom-action-parameter name="resourceType" type="TEXT" value="other"/>
     <custom-action-parameter name="resourceType" type="TEXT" value="document"/>
+    <embedded-action>1da2f606-df81-4c78-b72b-872d757326b9</embedded-action>
+    <embedded-action>79c3bdd9-9d3d-41a2-ad5c-6f58ba9fe191</embedded-action>
+    <embedded-action>5e618519-ac2b-4ddd-8a7c-f4d0ef105e62</embedded-action>
+    <embedded-action>50b37837-763b-4ead-976f-750995459188</embedded-action>
+    <embedded-action>ba8b3537-5ecc-4a7b-bbcb-65dbfb4fd3dd</embedded-action>
+    <embedded-action>eefcb9bc-e540-4e30-a071-47f11740e616</embedded-action>
+    <embedded-action>8fe85afb-5dda-4483-a37e-dd2bafdc98ae</embedded-action>
+    <embedded-action>eb1149ef-6f19-4e70-8a81-f0abf50c0fec</embedded-action>
 </browser-action>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="1da2f606-df81-4c78-b72b-872d757326b9" value="https://ushahidi.apps.neotys.com/rb_bf42640bbz"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="79c3bdd9-9d3d-41a2-ad5c-6f58ba9fe191" value="https://ushahidi.apps.neotys.com/json/cluster"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="5e618519-ac2b-4ddd-8a7c-f4d0ef105e62" value="image"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="50b37837-763b-4ead-976f-750995459188" value="script"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="ba8b3537-5ecc-4a7b-bbcb-65dbfb4fd3dd" value="stylesheet"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="eefcb9bc-e540-4e30-a071-47f11740e616" value="other"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="8fe85afb-5dda-4483-a37e-dd2bafdc98ae" value="document"/>
+<browser-request-action name="" slaProfileEnabled="false" type="regexp"
+    uid="eb1149ef-6f19-4e70-8a81-f0abf50c0fec" value=".*"/>

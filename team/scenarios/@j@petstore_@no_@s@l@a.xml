@@ -1,7 +1,7 @@
 <scenario postMonitoringTime="-1" preMonitoringTime="-1"
     slaProfileEnabled="false" traceVariables="true"
     uid="JPetstore_No_SLA" virtualUsersStates="true">
-    <description>This test is a subsequent run of a Baseline test - with only ONE (Dubai) Load Generator.</description>
+    <description>This test is a subsequent run of a Baseline test - with only ONE (Johanessburg) Load Generator.</description>
     <!--****** POPULATION POLICY ******-->
     <population-policy name="JPetStore_NoSLA">
         <duration-policy-entry iterations="1" time="600" timeUnit="0" type="2"/>
@@ -73,7 +73,9 @@
     </request-path-exclusion-filter>
     <!--****** END  EXCLUSION FILTER ******-->
     <!--****** START DYNATRACE MONITORING ******-->
-    <dynatrace-monitoring/>
+    <dynatrace-monitoring>
+        <tag>neotys-cpt</tag>
+    </dynatrace-monitoring>
     <!--****** END  DYNATRACE MONITORING ******-->
     <!--****** START TRACE VARIABLES ******-->
     <!--****** END TRACE VARIABLES ******-->

@@ -13,8 +13,6 @@
         <!--****** POPULATION LG HOSTS ******-->
         <lg-hosts>
             <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
-            <lg-host-entry>$zoneID=USA East - Virginia (Ashburn 1) - AWS;$lgID=18.207.240.220:443</lg-host-entry>
-            <lg-host-entry>$zoneID=USA West - California (San Jose 1) - AWS;$lgID=54.176.117.187:443</lg-host-entry>
         </lg-hosts>
     </population-policy>
     <dashboards defaultDashboardUid="Graph board"/>

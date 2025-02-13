@@ -12,7 +12,10 @@
             thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
         <!--****** POPULATION LG HOSTS ******-->
         <lg-hosts>
+            <lg-host-entry>$zoneID=Africa South Africa (Johannesburg) - GCP;$lgID=34.35.52.120:443</lg-host-entry>
             <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
+            <lg-host-entry>$zoneID=USA East - Virginia (Ashburn 3) - GCP;$lgID=35.245.46.6:443</lg-host-entry>
+            <lg-host-entry>$zoneID=USA West - California (Los Angeles 2) - GCP;$lgID=34.102.0.255:443</lg-host-entry>
         </lg-hosts>
     </population-policy>
     <dashboards defaultDashboardUid="Graph board"/>
@@ -53,6 +56,7 @@
                 monitorName="lgcpu.localhost:7100"
                 monitoredHostName="LG localhost:7100" scale="1.0" selected="false"/>
         </chart-description>
+        <empty-chart-description/>
     </charts-model-description>
     <!--****** END DASHBOARDS  ******-->
     <!--****** START DATA FILTERS  ******-->
@@ -83,7 +87,11 @@
     </request-path-exclusion-filter>
     <!--****** END  EXCLUSION FILTER ******-->
     <!--****** START DYNATRACE MONITORING ******-->
-    <dynatrace-monitoring/>
+    <dynatrace-monitoring>
+        <tag>ushahidi.apps.neotys.com</tag>
+        <anomaly-rule metric="builtin:host.cpu.idle" operator="BELOW"
+            severity="PERFORMANCE" value="12"/>
+    </dynatrace-monitoring>
     <!--****** END  DYNATRACE MONITORING ******-->
     <!--****** START TRACE VARIABLES ******-->
     <!--****** END TRACE VARIABLES ******-->

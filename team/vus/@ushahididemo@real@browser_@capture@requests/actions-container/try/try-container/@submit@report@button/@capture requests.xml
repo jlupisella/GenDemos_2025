@@ -16,4 +16,25 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="resourceType" type="TEXT" value="script"/>
     <custom-action-parameter name="resourceType" type="TEXT" value="document"/>
     <custom-action-parameter name="resourceType" type="TEXT" value="other"/>
+    <embedded-action>ad8861fe-5757-4544-806a-9acfa368202d</embedded-action>
+    <embedded-action>499830e8-de4b-4738-9317-9dda6a5daf02</embedded-action>
+    <embedded-action>2aebffa8-782a-4247-b572-d2690e0e5372</embedded-action>
+    <embedded-action>e5173757-0aee-4c7c-a785-14ef49eea298</embedded-action>
+    <embedded-action>9b1c995f-4e0e-4e31-8371-5a87c23ee90e</embedded-action>
+    <embedded-action>8b2bbbd2-e940-420e-aedc-1f4d986b6d81</embedded-action>
+    <embedded-action>e4d612df-c66c-4745-9d31-2ae51a97cecc</embedded-action>
 </browser-action>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="ad8861fe-5757-4544-806a-9acfa368202d" value="https://ushahidi.apps.neotys.com/rb_bf42640bbz"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="499830e8-de4b-4738-9317-9dda6a5daf02" value="stylesheet"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="2aebffa8-782a-4247-b572-d2690e0e5372" value="image"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="e5173757-0aee-4c7c-a785-14ef49eea298" value="script"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="9b1c995f-4e0e-4e31-8371-5a87c23ee90e" value="document"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="8b2bbbd2-e940-420e-aedc-1f4d986b6d81" value="other"/>
+<browser-request-action name="" slaProfileEnabled="false" type="regexp"
+    uid="e4d612df-c66c-4745-9d31-2ae51a97cecc" value=".*"/>

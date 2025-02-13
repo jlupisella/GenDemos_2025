@@ -14,6 +14,3 @@ project.config.path=config.zip
 project.config.storage=ZIP
 team.server.enabled=true
 team.server.project=/jlupisella/GenDemos_2025
-project.workspace=5f3aaa9b7c07bd0001bf718c
-project.test-settings=f8c7ab11-1ad2-4a48-b07d-1f80dc5eb43e
-project.test-settings-name=JPetstore SLA 1 450 VU LVP Ramp LG 8
