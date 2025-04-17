@@ -1,5 +1,5 @@
 <population uid="JPetstore_SLA2">
-    <split cache="1" factor="50.0" virtualUserUid="JPetstore_SLA2">
+    <split cache="1" factor="40.0" virtualUserUid="JPetstore_SLA2">
         <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
             connections="6" cookies="true" http2="true" name="browser.recorded"/>
         <wan-emulation-profile
@@ -17,7 +17,7 @@
             signalStrength="GOOD" uploadBandwidth="bandwidth.unlimited"
             uploadLatency="0ms" uploadPacketLoss="0%"/>
     </split>
-    <split cache="1" factor="50.0" virtualUserUid="JPetstoreBrowse_SLA2">
+    <split cache="1" factor="30.0" virtualUserUid="JPetstoreBrowse_SLA2">
         <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
             connections="6" cookies="true" http2="true" name="browser.recorded"/>
         <wan-emulation-profile
@@ -35,7 +35,7 @@
             signalStrength="GOOD" uploadBandwidth="bandwidth.unlimited"
             uploadLatency="0ms" uploadPacketLoss="0%"/>
     </split>
-    <split cache="1" factor="0.0" virtualUserUid="JPetstore_multi_items_SLA2">
+    <split cache="1" factor="30.0" virtualUserUid="JPetstore_multi_items_SLA2">
         <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
             connections="6" cookies="true" http2="true" name="browser.recorded"/>
         <wan-emulation-profile

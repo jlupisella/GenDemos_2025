@@ -1,6 +1,8 @@
-<qTestSettings authMethod="TOKEN" contextTreePathIds=""
-    createDefects="false" enable="false" parentType=""
+<qTestSettings authMethod="TOKEN"
+    contextTreePathIds="1076454;5816737;5816738" createDefects="false"
+    enable="true" parentType="test-cycle"
     password="AQbiY9dTrM3pc+dQ1UzPNlG2hcNkVkahQGU/k9fWVTrgELVf7bByLFOTJ11Ncnqi$3"
-    projectId=""
-    token="ZFl4T5owZH/TuI/u4L/nqA9MHXBwdLVyEaY+HayLmHfLiLIPf45u/cORDngwPuAA$3"
-    treePathName="" url="" username=""/>
+    projectId="101280"
+    token="xLuUSVbRWo2fNj+dMIpv2WW0GQRm8TrnQ1UL9vKPPKCoHHFcc50g+GcdXo9mziWykrd9JMCtUVobxQaILTWUJ2KsxN5PEODIo+3QJOrZjQDo3dC6qYTmBPlrsEz9RDzHvGWGMhau4kp72ou8LiLcxM1y2WHaOwBYYvjj2vOxYhMh8NYb/KGAySwovnh1NPNt$3"
+    treePathName="qConnect - Sample Project -> Sapmple Project -> NeoLoad Release Cycle -> NeoLoad Performance Tests"
+    url="https://neoload.qtestnet.com/" username=""/>

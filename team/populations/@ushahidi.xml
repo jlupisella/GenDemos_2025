@@ -1,8 +1,7 @@
 <population uid="Ushahidi">
     <split cache="1" factor="100.0" virtualUserUid="UshahididemoRealBrowser_CaptureRequests">
-        <browser-profile acceptEncoding="GZIP,DEFLATE" connections="6"
-            cookies="true" http2="false" icon-name="firefox"
-            name="Firefox 3.6" userAgent="Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6"/>
+        <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
+            connections="6" cookies="true" http2="true" name="browser.recorded"/>
         <wan-emulation-profile
             averageDownloadBandwidth="bandwidth.unlimited"
             averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
