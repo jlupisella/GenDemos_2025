@@ -1,8 +1,7 @@
-<connection-ssh authentication="1" interval="5000" login="ec2-user"
+<connection-ssh authentication="0" interval="5000" login="jeff-user"
     name="linux" operatingSystem="1"
-    password="GR+1hUS7XlA8gTgcLksDqN89p4Ol2s7zaaCNwTCuVEA4vGwTgj4+Xr/Rd+8lYpOE$3"
-    private-key="C:\Users\jeflu\Downloads\JeffLTrainingImage2.pem"
-    server-address="54.242.251.229" server-port="22" uid="222b0f27-d941-4801-a27f-09ec88498a2b">
+    password="n8VQMmTgThkzlovnuNfGGn9RbHUNVxtOROZ/BSLClTFGiIGz5EebfdeRI/k0I5or$3"
+    private-key="" server-address="54.242.251.229" server-port="22" uid="222b0f27-d941-4801-a27f-09ec88498a2b">
     <monitor-category name="System" short-display-name="System">
         <simple-monitor-telnet callTime="ON_BENCH" category="0"
             computing="0" format="NUMBER" monitor="1"

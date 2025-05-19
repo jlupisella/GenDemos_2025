@@ -1,0 +1,48 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/job/load/wfapi/runs"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@ushahidi_@web_@create - @tosca/%resources%/recorded-artifacts/09b74fa3-b32b-48bb-9386-cf086b7d434c.zip"
+    slaProfileEnabled="false" thinkTime="1288"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="09b74fa3-b32b-48bb-9386-cf086b7d434c">
+    <embedded-action>98396318-1b84-47c9-98ea-799726122539</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json;charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/job/load/wfapi/runs" path="/job/load/wfapi/runs"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@ushahidi_@web_@create - @tosca/%resources%/recorded-artifacts/09b74fa3-b32b-48bb-9386-cf086b7d434c.zip"
+    recordedResponseCode="200" responseSize="8744" serverUid="jenkins"
+    slaProfileEnabled="false" uid="98396318-1b84-47c9-98ea-799726122539" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6fa48c2d-c47d-4d8b-9abb-de5f700945c0</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6fa48c2d-c47d-4d8b-9abb-de5f700945c0.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="since"
+        recordRawValue="%238" separator="=" value="#8" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="fullStages"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="_"
+        recordRawValue="1747660476473" separator="="
+        value="1747660476473" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_5_sn_677D2C1DAA68C82C2333371F6D808DFC_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; JSESSIONID.c1c37c73=node0ygw2ug8zp9kf1fxoxzh7fkkjj1.node0; screenResolution=1680x1050"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="jenkins:8081"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://jenkins:8081/job/load/"/>
+    <header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E)"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 May 2025 13:25:57 GMT&#xd;
+Server-Timing: dtRpid;desc="-1676749672" &#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Content-Type: application/json;charset=utf-8&#xd;
+Content-Length: 8744&#xd;
+Server: Jetty(9.4.22.v20191022)</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

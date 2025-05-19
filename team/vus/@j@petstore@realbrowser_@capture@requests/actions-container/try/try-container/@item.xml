@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Item" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="9c1faad4-9fca-489c-8b4b-9321c5aa5c06" weightsEnabled="false">
+    <weighted-embedded-action uid="60e162a9-fe4e-411d-b1f1-8b8e355071e2"/>
+    <weighted-embedded-action uid="10d66365-e573-4e25-8544-acb876520637"/>
+    <weighted-embedded-action uid="07f56313-ffa1-4d18-b053-83d3f6a7974d"/>
+</basic-logical-action-container>

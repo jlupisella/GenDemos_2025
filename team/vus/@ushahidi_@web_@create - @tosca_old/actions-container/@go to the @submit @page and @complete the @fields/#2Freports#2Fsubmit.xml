@@ -1,0 +1,120 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/reports/submit"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@ushahidi_@web_@create - @tosca_old/%resources%/recorded-artifacts/6b05dcf3-35ff-4d27-ae9d-644c95d7c957.zip"
+    slaProfileEnabled="false" thinkTime="909"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6b05dcf3-35ff-4d27-ae9d-644c95d7c957">
+    <embedded-action>293ff025-fc5d-4e88-aa60-0ed363ba3477</embedded-action>
+    <embedded-action>e32cabfc-ab1c-43ac-8cd3-d0eae66f281c</embedded-action>
+    <embedded-action>d9258874-f8a1-4f32-b567-643475fcd1ec</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/reports/submit" path="/reports/submit"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@ushahidi_@web_@create - @tosca_old/%resources%/recorded-artifacts/6b05dcf3-35ff-4d27-ae9d-644c95d7c957.zip"
+    recordedResponseCode="200" responseSize="52579"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="293ff025-fc5d-4e88-aa60-0ed363ba3477" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5a4ebae2-c9e5-4d19-9685-5806cfb9207e.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5a4ebae2-c9e5-4d19-9685-5806cfb9207e.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="ushahidi=sb4pql0sj4a1knemrqdlrul611; dtCookie=v_4_srv_8_sn_D9E5BF9D56245928F5A45B92D3AE563F_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="Referer" value="https://ushahidi.apps.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Sun, 18 May 2025 23:22:55 GMT&#xd;
+Server: Apache&#xd;
+Expires: Thu, 19 Nov 1981 08:52:00 GMT&#xd;
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=sb4pql0sj4a1knemrqdlrul611; expires=Mon, 19-May-2025 01:22:55 GMT; Max-Age=7200; path=/; httponly&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="1751560512"&#xd;
+Keep-Alive: timeout=5, max=99&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=UTF-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/scheduler" path="/scheduler" postType="6"
+    recordedArtifactZipFileName="team/vus/@ushahidi_@web_@create - @tosca_old/%resources%/recorded-artifacts/6b05dcf3-35ff-4d27-ae9d-644c95d7c957.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="e32cabfc-ab1c-43ac-8cd3-d0eae66f281c" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_671e0bb3-2bc3-48d8-a535-194bec9eaedc.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="ushahidi=sb4pql0sj4a1knemrqdlrul611; dtCookie=v_4_srv_8_sn_D9E5BF9D56245928F5A45B92D3AE563F_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="Referer" value="https://ushahidi.apps.neotys.com/reports/submit"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Sun, 18 May 2025 23:22:56 GMT&#xd;
+Server: Apache&#xd;
+Expires: Wed, 11 Nov 1998 11:11:11 GMT&#xd;
+Cache-Control: must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=sb4pql0sj4a1knemrqdlrul611; expires=Mon, 19-May-2025 01:22:56 GMT; Max-Age=7200; path=/; httponly&#xd;
+Content-Length: 49&#xd;
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="479043255"&#xd;
+Keep-Alive: timeout=5, max=98&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/xml; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/urstelemetry.asmx" path="/urstelemetry.asmx"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@ushahidi_@web_@create - @tosca_old/%resources%/recorded-artifacts/6b05dcf3-35ff-4d27-ae9d-644c95d7c957.zip"
+    recordedResponseCode="200" responseSize="1"
+    serverUid="t.urs.microsoft.com" slaProfileEnabled="false"
+    uid="d9258874-f8a1-4f32-b567-643475fcd1ec" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_25171d3f-f638-4703-b7fc-1d1210253ba9.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_25171d3f-f638-4703-b7fc-1d1210253ba9.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="MSTel-Client-Key"
+        recordRawValue="eUYHLZ5jj5oJtl4K4JHBCw%3d%3d" separator="="
+        value="eUYHLZ5jj5oJtl4K4JHBCw==" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="MSTel-MAC" recordRawValue="ra0UsC27tqY%3d" separator="="
+        value="ra0UsC27tqY=" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/*"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Content-Type" value="text/xml; charset=utf-8"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="t.urs.microsoft.com"/>
+    <header name="User-Agent" value="VCSoapClient"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Sun, 18 May 2025 23:22:56 GMT&#xd;
+Content-Type: text/xml; charset=utf-8&#xd;
+Content-Length: 1&#xd;
+Connection: keep-alive&#xd;
+Server: Kestrel&#xd;
+Cache-Control: max-age=0, private&#xd;
+Request-Context: appId=cid-v1:3d5e3eff-de07-43c3-a15d-06b05ff513c8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<T v="6"><G>4A72F430-B40C-4D36-A068-CE33ADA5ADF9</G><D>10.0.8110.6</D><C>11.0.0.0</C><OS>10.0.17763.0.0</OS><I>9.11.17763.0</I><L>en-US</L><O>POST</O><ID>AB07571F-BAF5-4E6B-93AA-94A0BAC07FD9</ID><DID>L0i9GQ/KbJFDU8b3kwBhaUcDHp9TFuliwuoJgJ81iKM=:0</DID><UID>w:9D888354-6D34-3AC6-806D-BE7EF06E3936</UID><URL>aHR0cHM6Ly91c2hhaGlkaS5hcHBzLm5lb3R5cy5jb20vcmVwb3J0cy9zdWJtaXQ=</URL><RU>aHR0cHM6Ly91c2hhaGlkaS5hcHBzLm5lb3R5cy5jb20v</RU><RI>0000:0000:0000:0000:0000:0000:0000:0001</RI><HIP>0000:0000:0000:0000:0000:0000:0000:0001</HIP><UI>1945b3bc70473f0518008c55855f54f261188351c1f63ed7e91ff76d560389e4</UI><S>1088</S><DI>10.0.0.2</DI><Y><T>B|0|100.0000</T><T>I|0|100.0000</T><T>D|0|95.0000</T><T>P|0|100.0000|6.5000</T><T>F|2|0.0070|0.0070|0.0070</T><T>R|0|100.0000</T><T>U|2|1.0000</T><T>W|0|0.0050</T><T>H|0|100.0000</T><T>O|0|100.0000</T><T>T|0|100.0000</T><T>PP|1|100.0000</T></Y><M>NEHN</M><Fs><F><URL>aHR0cHM6Ly91c2hhaGlkaS5hcHBzLm5lb3R5cy5jb20vcmVwb3J0cy9zdWJtaXQ=</URL><Z>NEHN</Z><H>10410000|4|0|80000060|FC0|0,2</H><K>3a004c006f00670069006e003a00</K><T>TOP</T><HIP>0000:0000:0000:0000:0000:0000:0000:0001</HIP><SC/><SH>963712c9e403a2b0</SH><NS></NS><SSL/><SSLLen/><REDIR/></F></Fs><WA/><GS/><Err/></T>]]></textPostContent>
+</http-action>

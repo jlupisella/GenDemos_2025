@@ -1,0 +1,43 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/scheduler"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@ushahidi_@web_@create - @tosca/%resources%/recorded-artifacts/fd2cb5e6-4f11-424f-868f-d6132ff35c1c.zip"
+    slaProfileEnabled="false" thinkTime="817"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fd2cb5e6-4f11-424f-868f-d6132ff35c1c">
+    <embedded-action>fa41848e-bd8e-456e-9e6b-4668579ac9df</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/scheduler" path="/scheduler" postType="6"
+    recordedArtifactZipFileName="team/vus/@ushahidi_@web_@create - @tosca/%resources%/recorded-artifacts/fd2cb5e6-4f11-424f-868f-d6132ff35c1c.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="fa41848e-bd8e-456e-9e6b-4668579ac9df" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_aa9982fa-2e3a-4b9b-84a7-a5bf245cf961.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="ushahidi=4i5vk5ppdgk3csf50cio5q8117; dtCookie=v_4_srv_3_sn_B23B033127F5A8CDEE140B9010C25E7C_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="Referer" value="https://ushahidi.apps.neotys.com/reports/submit"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 May 2025 13:25:59 GMT&#xd;
+Server: Apache&#xd;
+Expires: Wed, 11 Nov 1998 11:11:11 GMT&#xd;
+Cache-Control: must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=4i5vk5ppdgk3csf50cio5q8117; expires=Mon, 19-May-2025 15:25:59 GMT; Max-Age=7200; path=/; httponly&#xd;
+Content-Length: 49&#xd;
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="2093226277"&#xd;
+Keep-Alive: timeout=5, max=98&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

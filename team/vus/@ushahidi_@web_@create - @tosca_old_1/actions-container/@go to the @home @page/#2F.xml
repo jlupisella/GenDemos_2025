@@ -1,0 +1,46 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@ushahidi_@web_@create - @tosca_old_1/%resources%/recorded-artifacts/49dbfb76-0ca5-453a-b9a0-f44e71875a02.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="49dbfb76-0ca5-453a-b9a0-f44e71875a02">
+    <embedded-action>ef5cb8e9-8da3-43dc-afd6-83e7ee522351</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/" path="/" postType="6"
+    recordedArtifactZipFileName="team/vus/@ushahidi_@web_@create - @tosca_old_1/%resources%/recorded-artifacts/49dbfb76-0ca5-453a-b9a0-f44e71875a02.zip"
+    recordedResponseCode="200" responseSize="31145"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="ef5cb8e9-8da3-43dc-afd6-83e7ee522351" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_51e6088d-073c-4146-b198-438e043c1aad.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_51e6088d-073c-4146-b198-438e043c1aad.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="ushahidi=sb4pql0sj4a1knemrqdlrul611"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Sun, 18 May 2025 23:26:04 GMT&#xd;
+Server: Apache&#xd;
+Expires: Thu, 19 Nov 1981 08:52:00 GMT&#xd;
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=sb4pql0sj4a1knemrqdlrul611; expires=Mon, 19-May-2025 01:26:04 GMT; Max-Age=7200; path=/; httponly&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="974091729"&#xd;
+Set-Cookie: dtCookie=v_4_srv_2_sn_6FD6D856D2CB86E94F5852CF6D9F532A_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; Path=/; Domain=.neotys.com&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=UTF-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

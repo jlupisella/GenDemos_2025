@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Go to the Submit Page and Complete the Fields" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="62b0f55c-b472-44e3-aaa8-548beb2bd398" weightsEnabled="false">
+    <weighted-embedded-action uid="6b05dcf3-35ff-4d27-ae9d-644c95d7c957"/>
+</basic-logical-action-container>

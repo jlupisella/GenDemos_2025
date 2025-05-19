@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Back Home and close the Browser" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="6264ff23-29ce-4387-946e-820a4f8c9c20" weightsEnabled="false">
+    <weighted-embedded-action uid="416252fc-c36d-487b-b7cc-7b0e8fbb687e"/>
+</basic-logical-action-container>

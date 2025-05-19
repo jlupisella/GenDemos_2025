@@ -1,3 +1,4 @@
 <clientCertificatesSettings>
-    <playback policy="none"/>
+    <playback
+        certificatePassword="MPe/NLhqIYR+qGoyVMBUM8c4sNnoc49UWC9XHkh9bBH6oEKy0aqnXD4wHYBodNnd$3" policy="none"/>
 </clientCertificatesSettings>

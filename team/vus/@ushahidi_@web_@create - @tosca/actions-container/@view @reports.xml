@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="View Reports" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="660cb0c1-0e42-4e34-a60c-65258c165b21" weightsEnabled="false">
+    <weighted-embedded-action uid="e7ad7f12-4f17-46b5-a7a2-7b57092fe0be"/>
+</basic-logical-action-container>

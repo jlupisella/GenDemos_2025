@@ -1,0 +1,47 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/reports/submit"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@ushahidi_@web_@create - @tosca/%resources%/recorded-artifacts/8e4fccfe-b366-4645-90e2-87f8eec6d820.zip"
+    slaProfileEnabled="false" thinkTime="909"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="8e4fccfe-b366-4645-90e2-87f8eec6d820">
+    <embedded-action>6dbcb247-9cfe-45ec-9da1-2973855f57fc</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/reports/submit" path="/reports/submit"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@ushahidi_@web_@create - @tosca/%resources%/recorded-artifacts/8e4fccfe-b366-4645-90e2-87f8eec6d820.zip"
+    recordedResponseCode="200" responseSize="52579"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="6dbcb247-9cfe-45ec-9da1-2973855f57fc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_edbd9881-5315-4d7f-89b9-f16bfcdddc56.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_edbd9881-5315-4d7f-89b9-f16bfcdddc56.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="ushahidi=4i5vk5ppdgk3csf50cio5q8117; dtCookie=v_4_srv_3_sn_B23B033127F5A8CDEE140B9010C25E7C_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="Referer" value="https://ushahidi.apps.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 May 2025 13:25:58 GMT&#xd;
+Server: Apache&#xd;
+Expires: Thu, 19 Nov 1981 08:52:00 GMT&#xd;
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=4i5vk5ppdgk3csf50cio5q8117; expires=Mon, 19-May-2025 15:25:58 GMT; Max-Age=7200; path=/; httponly&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="-159520096"&#xd;
+Keep-Alive: timeout=5, max=99&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=UTF-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
