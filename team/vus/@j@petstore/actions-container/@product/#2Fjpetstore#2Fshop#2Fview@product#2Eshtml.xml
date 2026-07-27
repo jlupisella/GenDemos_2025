@@ -2,12 +2,12 @@
     forceEncodingForDynamicResources="false"
     name="/jpetstore/shop/viewProduct.shtml"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/c29c0372-23d6-4b27-b69e-2bd8a07ccb7d.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/e871f237-ba21-4fe6-b00e-ab42531c8831.zip"
     slaProfileEnabled="false" thinkTime="9818"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="c29c0372-23d6-4b27-b69e-2bd8a07ccb7d">
-    <embedded-action>36156e0d-0404-4988-a131-4a86619e0c02</embedded-action>
-    <embedded-action>fa23a447-f534-4a23-b366-e1679093a5d5</embedded-action>
+    thinkTimeRangeStart="" uid="e871f237-ba21-4fe6-b00e-ab42531c8831">
+    <embedded-action>122f5034-d299-4572-ad4f-05b2b63a7b68</embedded-action>
+    <embedded-action>4f61471f-f31e-4b14-9469-1787e1cf50aa</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -16,11 +16,11 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/jpetstore/shop/viewProduct.shtml"
     path="/jpetstore/shop/viewProduct.shtml" postType="2"
-    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/c29c0372-23d6-4b27-b69e-2bd8a07ccb7d.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/e871f237-ba21-4fe6-b00e-ab42531c8831.zip"
     recordedResponseCode="200" recordedResponseTime="45"
     responseSize="4900" serverUid="TrainingImage"
     slaProfileEnabled="true" slaProfileName="SLA_1"
-    uid="36156e0d-0404-4988-a131-4a86619e0c02" useKeepAlive="false">
+    uid="122f5034-d299-4572-ad4f-05b2b63a7b68" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_d63f8f3a-2519-414a-9989-1583a6a12c89.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_de6484a1-795d-4eb8-8add-c83042ce7f7e.0.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
@@ -74,11 +74,11 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/jpetstore/images/button_add_to_cart.gif"
     path="/jpetstore/images/button_add_to_cart.gif" postType="2"
-    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/c29c0372-23d6-4b27-b69e-2bd8a07ccb7d.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/e871f237-ba21-4fe6-b00e-ab42531c8831.zip"
     recordedResponseCode="200" recordedResponseTime="72"
     responseSize="481" serverUid="TrainingImage"
     slaProfileEnabled="true" slaProfileName="SLA_1"
-    uid="fa23a447-f534-4a23-b366-e1679093a5d5" useKeepAlive="false">
+    uid="4f61471f-f31e-4b14-9469-1787e1cf50aa" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_66c829f9-564c-4700-90ad-c841de71cd1d.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_7625046a-fc0d-4ef1-80f8-639fdac78a64.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>

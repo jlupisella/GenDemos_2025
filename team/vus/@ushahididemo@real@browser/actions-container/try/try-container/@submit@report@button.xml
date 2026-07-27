@@ -1,6 +1,7 @@
 <basic-logical-action-container element-number="1" execution-type="0"
     name="SubmitReportButton" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="SLA_RealBrowser"
     uid="a9fe5068-c91a-4865-9b64-fd8a42a9879e" weightsEnabled="false">
     <weighted-embedded-action uid="440908b3-6a12-4fdd-b20b-23389ce07c07"/>
     <weighted-embedded-action uid="90bcab52-ea98-4214-817e-f319991a2689"/>

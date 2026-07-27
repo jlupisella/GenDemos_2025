@@ -8,7 +8,7 @@
             counterID="0" format="NUMBER"
             name="Connections/ threads connected" sampling="0"
             short-display-name="threads connected"
-            threshold="ee957115-7edc-4835-830f-9024f4b4b44d" unit="">
+            threshold="6316d45d-03d6-4fdb-aed1-d31f1a3d51d5" unit="">
             <description>Number of currently open connections</description>
         </monitor-mysql>
         <monitor-mysql callTime="ON_BENCH" categoryID="0" computing="0"
@@ -305,10 +305,6 @@
             <description>Version of the MySQL database</description>
         </monitor-mysql>
     </monitor-category>
-    <threshold enabled="true" uid="ee957115-7edc-4835-830f-9024f4b4b44d">
-        <threshold-condition durationKind="SECONDS" durationNumber="15"
-            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="8.0"/>
-    </threshold>
     <threshold enabled="true" uid="9dcb3d26-9e37-4a35-b74e-53fd15cf7022">
         <threshold-condition durationKind="SECONDS" durationNumber="30"
             operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="5.0">
@@ -398,5 +394,9 @@
                 <threshold-content>Nombre élevé de 'merges passes' faites par l'algorithme de tri</threshold-content>
             </threshold-comment>
         </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="6316d45d-03d6-4fdb-aed1-d31f1a3d51d5">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="8.0"/>
     </threshold>
 </connection-mysql>
